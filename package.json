@@ -1,0 +1,27 @@
+{
+  "name": "phonebook-backend",
+  "version": "0.0.1",
+  "description": "phonebook backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdonatoprog/fullstackopen2.git"
+  },
+  "author": "SD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdonatoprog/fullstackopen2/issues"
+  },
+  "homepage": "https://github.com/sdonatoprog/fullstackopen2#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
